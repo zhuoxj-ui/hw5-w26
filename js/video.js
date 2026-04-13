@@ -9,9 +9,6 @@ window.addEventListener("load", function () {
     video.autoplay = false;
     video.loop = false;
 
-    // Initialize volume display
-    document.querySelector("#volume").textContent = video.volume * 100 + "%";
-
     // ── Play ──────────────────────────────────────────────
     document.querySelector("#play").addEventListener("click", function () {
         video.play();
